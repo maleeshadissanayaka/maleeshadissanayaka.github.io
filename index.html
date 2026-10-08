@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Maleesha Viraj — Data Science Undergraduate</title>
-<meta name="description" content="Portfolio of Maleesha Viraj Dissanayaka — final-semester Data Science undergraduate, freelancer of 4 years, and emerging AI automation builder.">
+<title>Maleesha Viraj — Data Science Undergraduate | Microsoft Student Ambassador</title>
+<meta name="description" content="Portfolio of Maleesha Dissanayaka — final-year Data Science undergraduate, Microsoft Student Ambassador, Top-Rated Upwork freelancer, and emerging AI automation developer.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
@@ -349,9 +349,10 @@ const SERVICES = [
 ];
 
 const PROJECTS = [
-  { flagship:true, title:"DevInsight", sub:"AI-Powered GitHub Analytics Platform", desc:"An AI-driven platform analyzing GitHub repository data and CI/CD logs to predict software project risk. Applies ensemble machine learning models (Random Forest, XGBoost) to detect bug-prone modules, classify issue priority, and analyze developer workload — with a cross-platform visualization dashboard built on Flutter Web and Supabase, plus LLM-generated explanations for actionable insights.", tags:["Data Science","Machine Learning","Python","Flutter","Supabase","GitHub API"], meta:"May 2026 – Present · Capstone", link:null, media:null },
-  { title:"ParkNet", sub:"Smart Parking System (IoT + Full-Stack Web)", desc:"A smart parking management system integrating a physical IoT prototype with a full-stack web app. Ultrasonic sensors on an ESP32 detect vehicle presence per slot and stream real-time data to Firebase Realtime Database, powering live availability updates and an entrance display before vehicle entry. Users reserve, extend, and end sessions; admins manage areas and monitor occupancy in real time, with role-based access via Clerk.", tags:["React","TypeScript","Vite","Tailwind CSS","shadcn/ui","Clerk","Firebase","ESP32"], meta:"Aug – Sep 2025 · Assoc. with SLTC", link:"https://tcc-frontend-beta.vercel.app", media:{type:"grid3", imgs:[PARKNET1, PARKNET_HW, PARKNET_SITE]} },
-  { title:"HEXSHOES", sub:"AI-Powered E-Commerce Platform", desc:"Building a full-stack e-commerce platform for a footwear brand, combining modern web development with applied machine learning. The site includes a working AI-powered visual search feature — users upload a photo of a shoe, and the system finds the most visually similar products using CLIP image embeddings and cosine similarity search, served through a dedicated Python/FastAPI microservice. The frontend is React and TypeScript, the backend is Node.js/Express (TypeScript), and product data lives in Firebase Firestore — a production-style split between the web app and the ML service, the same pattern many real-world engineering teams use.", tags:["React","TypeScript","Node.js","Express","FastAPI","PyTorch","CLIP","Firebase"], meta:"Jul 2026 – Present", link:null, media:{type:"single", imgs:[HEXSHOES]}, preview:true, caption:"Image: early UI design preview — production build uses React, Node.js & Firebase" },
+  { flagship:true, title:"DevInsight", sub:"AI-Powered GitHub Analytics Platform", desc:"An AI-driven platform that analyzes GitHub repository activity and CI/CD data to identify software project risks and generate actionable insights. Applies ensemble machine learning models to detect bug-prone modules, classify issue priority, and analyze developer workload, with a cross-platform Flutter Web and Supabase dashboard plus LLM-generated explanations.", tags:["Data Science","Machine Learning","Python","Random Forest","XGBoost","Flutter Web","Supabase","GitHub API"], meta:"May 2026 – Present · Capstone", link:null, media:null },
+  { title:"XAI Fashion Design", sub:"Explainable AI-Driven Fashion Design", desc:"A deep learning research project focused on explainable AI-driven fashion design and demand-aware optimization. Applies generative models and CNN-based techniques for fashion design, with SHAP and LIME to interpret model predictions and design decisions.", tags:["Python","Deep Learning","Generative AI","GAN","CNN","SHAP","LIME","Explainable AI"], meta:"Aug 2026 · Assoc. with SLTC", link:null, media:null },
+  { title:"ParkNet", sub:"Smart Parking System (IoT + Full-Stack Web)", desc:"A smart parking management system integrating a physical IoT prototype with a full-stack web application. Built with React, TypeScript, Vite, Tailwind CSS, shadcn/ui, Clerk, Firebase, and ESP32, using ultrasonic sensors to detect vehicle presence and stream live parking data.", tags:["React","TypeScript","Vite","Tailwind CSS","shadcn/ui","Clerk","Firebase","ESP32"], meta:"Aug – Sep 2025 · Assoc. with SLTC", link:"https://tcc-frontend-beta.vercel.app", media:{type:"grid3", imgs:[PARKNET1, PARKNET_HW, PARKNET_SITE]} },
+  { title:"HEXSHOES", sub:"AI-Powered E-Commerce Platform", desc:"Building a full-stack e-commerce platform for a footwear brand with an AI-powered visual search feature using CLIP image embeddings and cosine similarity search. Architected with a React/TypeScript frontend, Node.js/Express backend, and dedicated Python/FastAPI machine learning microservice.", tags:["React","TypeScript","Node.js/Express","FastAPI","PyTorch","CLIP","Firebase"], meta:"Jul 2026 – Present", link:null, media:{type:"single", imgs:[HEXSHOES]}, preview:true, caption:"Image: early UI design preview — production build uses React, Node.js & Firebase" },
 ];
 
 const WHY = [
@@ -362,8 +363,9 @@ const WHY = [
 ];
 
 const LEADERSHIP = [
-  { role:"President", org:"GET Sync Club of SLTC", date:"Jan 2026 – Present" },
+  { role:"Microsoft Student Ambassador", org:"Microsoft", date:"Oct 2026 – Present" },
   { role:"College Captain", org:"Albert College, Sports Council of SLTC", date:"Jun 2026 – Present" },
+  { role:"President", org:"GET Sync Club of SLTC", date:"Jan 2026 – Present" },
   { role:"University Life & Internal Affairs Coordinator", org:"Student Interactive Society, SLTC", date:"Mar 2026 – Present" },
   { role:"Degree Representative — BSc (Hons) Data Science", org:"SLTC", date:"Mar 2023 – Present" },
   { role:"Vice Chairman, IIR Division", org:"GET Sync Club of SLTC", date:"Nov 2024 – Nov 2025" },
@@ -374,33 +376,36 @@ const LEADERSHIP = [
 const LEAD_GALLERY = [CAPTAIN, CAPTAIN3, UNILIFE, UNILIFE2, EXCOM, EXCOM2, ASSISTANT, ASSISTANT2];
 
 const EXPERIENCE = [
-  { role:"Freelancer — Virtual Assistant & Designer", org:"Upwork", date:"2022 – Present", detail:"4 years, remote, serving clients across the United States, alongside my degree." },
+  { role:"AI Automation Developer (Independent)", org:"Independent Freelance Work", date:"2026 – Present", detail:"Building website and social media automation systems using n8n and Make.com integrated with the OpenAI and Claude APIs." },
+  { role:"Top-Rated Freelancer — Virtual Assistant & Designer", org:"Upwork", date:"Jan 2022 – Present", detail:"Delivered virtual assistance, programming support, data handling, graphic design, social media, and digital content services to international clients." },
   { role:"Virtual Assistant", org:"KMF Business Advisors", date:"2022 – Present", detail:"Administrative coordination, data organization, online research, social media." },
   { role:"Virtual Assistant", org:"Liazon Marketing", date:"2022 – Present", detail:"Graphic design, social content, data entry, digital marketing support." },
 ];
 
 const SKILL_GROUPS = [
-  { label:"Data & Machine Learning", skills:["Machine Learning","Deep Learning","Data Science","Data Analysis","Big Data","PySpark","Pandas","Power BI"] },
-  { label:"AI Tooling & Automation", skills:["Generative AI","Prompt Engineering","Microsoft 365 Copilot","n8n / Make.com","OpenAI API","Claude API"] },
-  { label:"Engineering", skills:["Python","React.js","Node.js","TypeScript","Flutter","FastAPI","Supabase","Firebase","Git","REST APIs"] },
-  { label:"Freelance & Creative", skills:["Amazon Seller Central","Data Entry","Social Media Marketing","Figma","Canva","Photoshop","MidJourney"] },
+  { label:"Data & Machine Learning", skills:["Machine Learning","Deep Learning","Random Forest","XGBoost","Scikit-learn","Data Analysis","Big Data","PySpark","Statistical Analysis","Predictive Modeling","Generative AI"] },
+  { label:"AI Tooling & Automation", skills:["OpenAI API","Claude API","n8n","Make.com","Microsoft 365 Copilot","Generative AI"] },
+  { label:"Engineering & Cloud", skills:["Python","Java","C","C++","JavaScript","TypeScript","Dart","SQL","React.js","Node.js","FastAPI","Flutter","HTML","CSS","REST APIs","Android Studio","Firebase","Supabase","MySQL","SQLite","Docker","AWS EC2","Microsoft Fabric","ESP32","Arduino","Embedded C","Git","GitHub","Jira","Power BI","Tableau (Basic)"] },
+  { label:"Freelance & Creative", skills:["Amazon Seller Central Management","Data Entry","Lead Generation","Administrative Support","Canva","Photoshop","Figma","Social Media Marketing","Branding","MidJourney"] },
 ];
 
 const CERTS = [
+  { name:"Microsoft Applied Skills: Get started developing agents in Microsoft Foundry", org:"Microsoft", date:"Aug 2026" },
+  { name:"Get started with AI applications and agents on Azure", org:"Microsoft", date:"Aug 2026" },
   { name:"Implement Real-Time Intelligence with Microsoft Fabric", org:"Microsoft", date:"Jul 2026" },
-  { name:"Optimize Business Processes with Microsoft 365 Copilot", org:"Microsoft", date:"Jul 2026" },
-  { name:"Enhance Productivity with Prebuilt Microsoft 365 Copilot Agents", org:"Microsoft", date:"Jul 2026" },
+  { name:"Enhance your productivity with prebuilt Microsoft 365 Copilot agents", org:"Microsoft", date:"Jul 2026" },
+  { name:"Optimize business processes with Microsoft 365 Copilot", org:"Microsoft", date:"Jul 2026" },
   { name:"Python for Beginners", org:"Centre for Open & Distance Learning, University of Moratuwa", date:"Dec 2025" },
 ];
 
 const FAQ = [
-  { q:"Are you available for internships?", a:"Yes — I'm in my final semester and actively looking for internships in data science, ML, or software engineering." },
+  { q:"Are you available for internships?", a:"Yes — I'm in my final year and open to opportunities in AI, data analytics, cloud, digital transformation, and machine learning." },
   { q:"Is freelancing your main focus?", a:"No — data science is. Freelancing runs alongside my degree and has for 4 years, but my degree and technical projects come first." },
   { q:"What's the current state of your AI automation work?", a:"It's new — I've started building automation systems for a couple of clients, met through Upwork. I'm actively growing this specialty." },
-  { q:"Where are you based, and can you work with international clients?", a:"I'm based in Colombo, Sri Lanka, and flexible with time zones for remote work." },
+  { q:"Where are you based, and can you work with international clients?", a:"I'm based in Diyatalawa, Sri Lanka, and flexible with time zones for remote work." },
 ];
 
-const TECH_STACK = ["Data Science","Machine Learning","Deep Learning","Natural Language Processing","Computer Vision","Python","PySpark","R","SQL","TensorFlow","Scikit-learn","Neural Networks","Predictive Modeling","Data Visualization","Statistical Analysis","Big Data","React","TypeScript","Node.js","FastAPI","PyTorch","Flutter","Supabase","Firebase","n8n","Make.com","OpenAI API","Claude API","Figma","Amazon Seller Central","Virtual Assistance","Social Media Marketing","Lead Generation","Graphic Design"];
+const TECH_STACK = ["Python","Java","C","C++","JavaScript","TypeScript","Dart","SQL","Machine Learning","Deep Learning","Random Forest","XGBoost","Scikit-learn","Data Analysis","Big Data","PySpark","Statistical Analysis","Predictive Modeling","Generative AI","React.js","Node.js","FastAPI","Flutter","HTML","CSS","REST APIs","Android Studio","Firebase Firestore","Supabase","MySQL","SQLite","Docker","AWS EC2","Microsoft Fabric","ESP32","Arduino","Embedded C","OpenAI API","Claude API","n8n","Make.com","Microsoft 365 Copilot","Git","GitHub","GitHub Flow","Jira","Power BI","Tableau","Microsoft Excel","Canva","Photoshop","Figma","Social Media Marketing","Branding","MidJourney","Amazon Seller Central","Data Entry","Lead Generation"];
 
 function Nav() {
   const [open, setOpen] = useState(false);
@@ -459,11 +464,12 @@ function Hero() {
             <RingPhoto/>
           </Reveal>
           <Reveal delay={100}>
-            <span className="hero-eyebrow mono">COLOMBO, SRI LANKA · ONE SEMESTER FROM GRADUATING</span>
+            <span className="hero-eyebrow mono">DIYATALAWA, SRI LANKA · FINAL-YEAR DATA SCIENCE · MICROSOFT STUDENT AMBASSADOR</span>
             <h1>Hi, I'm <span className="grad-text">Maleesha Viraj.</span></h1>
-            <p className="hero-sub">Final-year BSc (Hons) Data Science undergraduate with over 4 years of professional freelancing experience. Top-Rated Freelancer on Upwork, and now building AI automation systems for established businesses.</p>
+            <p className="hero-sub">Final-year BSc (Hons) Data Science undergraduate and Microsoft Student Ambassador with over 4 years of professional freelancing experience as a Top-Rated Upwork freelancer. Interested in AI, data, analytics, cloud, and digital transformation.</p>
             <div className="hero-ctas">
               <button className="btn btn-primary" onClick={()=>go('projects')}>See my work →</button>
+              <a className="btn btn-ghost" href="Maleesha_Dissanayaka_CV.pdf" download="Maleesha_Dissanayaka_CV.pdf">Download CV ↓</a>
             </div>
             <div className="contact-chips">
               <a className="chip" href="mailto:maleeshaviraj25d@gmail.com">✉ maleeshaviraj25d@gmail.com</a>
@@ -476,8 +482,8 @@ function Hero() {
         <Reveal className="stat-bar" delay={150}>
           <div className="stat"><div className="stat-num"><CountUp to={1}/></div><div className="stat-label">SEMESTER TO GRADUATE</div></div>
           <div className="stat"><div className="stat-num"><CountUp to={4}/></div><div className="stat-label">YEARS FREELANCING</div></div>
-          <div className="stat"><div className="stat-num"><CountUp to={3}/></div><div className="stat-label">TECHNICAL PROJECTS</div></div>
-          <div className="stat"><div className="stat-num"><CountUp to={8}/></div><div className="stat-label">LEADERSHIP ROLES</div></div>
+          <div className="stat"><div className="stat-num"><CountUp to={4}/></div><div className="stat-label">TECHNICAL PROJECTS</div></div>
+          <div className="stat"><div className="stat-num"><CountUp to={9}/></div><div className="stat-label">LEADERSHIP ROLES</div></div>
         </Reveal>
       </div>
     </div>
@@ -505,17 +511,17 @@ function About() {
           <p className="pull-quote">Data science is my degree and my direction. Freelancing and automation work run alongside it — and support it.</p>
           <p>Alongside my studies, I've worked as a <strong>Top-Rated Freelancer on Upwork for over 4 years</strong>, delivering Amazon store management, data entry, admin support, social media marketing, graphic design, and AI-assisted content for clients internationally.</p>
           <p>More recently, I've started building <strong>website and social media automation systems</strong> for established businesses I connected with through Upwork, using n8n, Make.com, and the OpenAI and Claude APIs. This is a new specialty I'm actively growing.</p>
-          <p>Outside academics and work, I hold leadership roles across my university's clubs and societies — College Captain, a club president, and several committee positions — which have given me as much practice coordinating people as my coursework has coordinating data.</p>
+          <p>Outside academics and work, I hold leadership roles across my university's clubs and societies, including College Captain, President of GET Sync Club, University Life & Internal Affairs Coordinator, and Microsoft Student Ambassador. These roles have strengthened my leadership, communication, teamwork, event planning, and project coordination skills.</p>
         </Reveal>
         <Reveal delay={100} className="status-card">
           <div className="row"><span>DEGREE</span><span>BSc (Hons) Data Science</span></div>
           <div className="row"><span>STATUS</span><span>Final Year</span></div>
           <div className="row"><span>PRIMARY FOCUS</span><span>Data Science & ML</span></div>
           <div className="row"><span>SECONDARY</span><span>Freelance (4 yrs)</span></div>
-          <div className="row"><span>LOCATION</span><span>Colombo, Sri Lanka</span></div>
+          <div className="row"><span>LOCATION</span><span>Diyatalawa, Sri Lanka</span></div>
           <div className="row"><span>EMAIL</span><span>maleeshaviraj25d@gmail.com</span></div>
           <div className="row"><span>PHONE</span><span>+94 70 151 4261</span></div>
-          <div className="row"><span>OPEN TO</span><span>Internships & Freelance</span></div>
+          <div className="row"><span>OPEN TO</span><span>AI, Data & Analytics, Cloud</span></div>
         </Reveal>
       </div>
     </div>
@@ -762,7 +768,7 @@ function Contact() {
           <div className="contact-box-inner">
             <span className="eyebrow" style={{justifyContent:"center"}}>LET'S TALK</span>
             <h2>Have a project, a role, or an idea?</h2>
-            <p>Open to internships, freelance work, and collaborations in data science, machine learning, and applied AI.</p>
+            <p>Open to opportunities and collaborations in AI, data analytics, cloud, digital transformation, machine learning, and applied technology.</p>
             <div className="contact-card">
               <a className="contact-item" href="mailto:maleeshaviraj25d@gmail.com">
                 <div className="ci-icon">✉</div>
@@ -789,7 +795,7 @@ function Contact() {
 }
 
 function Footer() {
-  return <footer>© {new Date().getFullYear()} MALEESHA VIRAJ DISSANAYAKA — COLOMBO, SRI LANKA</footer>;
+  return <footer>© {new Date().getFullYear()} MALEESHA VIRAJ DISSANAYAKA — DIYATALAWA, SRI LANKA</footer>;
 }
 
 function App() {
